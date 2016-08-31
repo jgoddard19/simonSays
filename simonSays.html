@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<title>Simon Says</title>
+<!-- <body onload="startGame()"> -->
+<head>
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+ <script src="app.js"></script>
+</head>
+
+<body>
+  <div id="container" style="text-align: center">
+    <input type="button" id="1" style="background-color:green; margin-bottom: 1.5px" />
+    <input type="button" id="2" style="background-color:#dc143c; margin-bottom: 1.5px" />
+    <br>
+    <input type="button" id="3" style="background-color:#ffd700" />
+    <input type="button" id="4" style="background-color:blue" />
+    <br>
+    <br> 
+    <div id="roundsDiv">
+    Rounds:
+    <input type="text" id="numRounds" style="width: 20px" value="4">
+    <input type="Submit" id="startButton" value="Start game" />
+    <input type="Submit" id="retryButton" value="Retry" style="display:none" />
+    </div>
+  </div>
+  <div id="endstate">
+    <br><span>click to dismiss</span></div>
+  <div id="tutorialDiv" style="text-align:center">
+    <p id="tutorial">
+    Click or use keys. <br>
+    q = green | w = red <br>
+    a = yellow | s = blue <br>
+    Enter to start or dismiss failure/success screens.
+    </p>
+  </div>
+  <div id="status" style="display:none; text-align:center">
+    <p id="feedbackText"></p>
+    <p id="statusText"></p>
+    <p id="roundCounter"></p>
+    <p id="playNum"></p>
+    <p id="num"></p>
+  </div>
+  <br>
+</body>
+</html>
