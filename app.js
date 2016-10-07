@@ -37,9 +37,13 @@ $(document).ready(function() {
 	$('#numRounds').focus();
 	
 	$("#1").css("background-color", "green");
+	$("#1").css("border-radius", "100px 1px 1px 1px");
 	$("#2").css("background-color", "#dc143c");
+	$("#2").css("border-radius", "1px 100px 1px 1px");
 	$("#3").css("background-color", "#ffd700");
+	$("#3").css("border-radius", "1px 1px 1px 100px");
 	$("#4").css("background-color", "blue");
+	$("#4").css("border-radius", "1px 1px 100px 1px");
 
   function animate(btnid) {
     if (btnid == "1") {

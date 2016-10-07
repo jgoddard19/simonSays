@@ -68,6 +68,11 @@
       -webkit-box-shadow: none;
       box-shadow: none;
     }
+
+    /* #1 { background-color: green; border-radius: 100px 1px 1px 1px; }
+    #2 { background-color: #dc143c; border-radius: 1px 100px 1px 1px; }
+    #3 { background-color: #ffd700; border-radius: 1px 1px 1px 100px; }
+    #4 { background-color: blue; border-radius: 1px 1px 100px 1px; } */
     
     #endstate {
       display: block;
